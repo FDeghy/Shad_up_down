@@ -271,6 +271,6 @@ class file:
                         sys.stdout.flush()
                     part += 1
                 except Exception as err:
-                    print("\njust a error: "+str(err)+". try again\n")
+                    print("\njust an error: "+str(err)+". try again\n")
                     
             print('\n[+] download complete!')
